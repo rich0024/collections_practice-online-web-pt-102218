@@ -16,13 +16,13 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  array.reverse 
+  array.reverse
 end
 
 def kesha_maker(array)
   array.each do |kesha|
-    kesha.delete(2)
+    kesha.delete(2),
     kesha.insert(2, '$')
   end
-  array 
+  array
 end
