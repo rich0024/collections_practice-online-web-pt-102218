@@ -24,4 +24,5 @@ def kesha_maker(array)
     kesha.delete(2)
     kesha.insert(2, '$')
   end
+  array 
 end
