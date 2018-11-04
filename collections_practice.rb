@@ -21,7 +21,7 @@ end
 
 def kesha_maker(array)
   array.each do |kesha|
-    kesha.sub(2, '$')
+    kesha[2] = '$'
   end
   array
 end
